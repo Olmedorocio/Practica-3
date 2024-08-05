@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con Alerta</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: chocolate;
+            }
+
+            .content {
+                background-color: coral;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0.1,);
+            }
+        </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Bienvenido a la pagina</h1>
+        <p>Esta Pagina Simple con una alerta al cargar.</p>
+    </div>
+    <script>
+        document.addEventListener('DOMContent-Loaded', function(){
+            alert('Bienvenido a la pagina!');
+        });
+    </script>
+</body>
+</html>
